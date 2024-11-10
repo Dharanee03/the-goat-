@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"prompt", sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+.root{
+    --text-color:#800000;
+
+}
+body{
+    min-height: 100vh;
+   
+}
+section{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 12%;
+    transition: all .5 ease;
+
+}
+#icon{
+    color: #3e3e3d;
+    font-size: 20px;
+    padding-inline: 10px;
+}
+#icon:hover{
+    color: black;
+}
+div a {
+    color: black;
+}
+.navbar {
+    display: flex;
+}
+.navbar li{
+  padding: 10px 0; 
+  margin: -10px 100px; 
+  margin-left: 100px;
+  cursor: pointer;
+  color: #ccdd6a;
+  
+}
+.navbar li:hover{
+    color: #748516;
+    text-shadow: black;
+    transition: 0.5s;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.main a{
+    margin-right: 20px;
+    margin-left: 50px;
+}
+.main #icon{
+    color: #ccdd6a;
+}
+.main #icon:hover{
+    color: #748516;
+
+}
+#menu{
+    font-size: 30px;
+    color: rgb(186, 243, 220);
+    cursor: pointer;
+    margin-left: -20px;
+}
+.bodycont{
+    margin-top: 100px;
+    font-family: "Goloria Hallelujah",cursive;
+}
